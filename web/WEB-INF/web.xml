@@ -16,5 +16,16 @@
             <servlet-name>LoginServlet</servlet-name>
             <url-pattern>/login</url-pattern>
     </servlet-mapping>
+    
+    
+    <servlet>
+        <servlet-name>ProfilServlet</servlet-name>
+        <servlet-class>com.supinfo.bartering.Servlet.ProfilServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+            <servlet-name>ProfilServlet</servlet-name>
+            <url-pattern>/profil</url-pattern>
+    </servlet-mapping>
 
 </web-app>

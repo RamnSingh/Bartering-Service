@@ -5,6 +5,7 @@
  */
 package com.supinfo.bartering.Servlet;
 
+import com.supinfo.bartering.Models.User;
 import java.io.IOException;
 import java.io.PrintWriter;
 import javax.servlet.ServletException;
@@ -37,6 +38,17 @@ public class LoginServlet extends HttpServlet {
         String password = req.getParameter("password");
         
         System.out.println("Email : " +  email + " password : " + password);
+        
+        if(email.equals("lucasnegrocastro@gmail.com") && password.equals("azerty")) {
+            System.out.println("Good auth");
+            
+            req.getSession().setAttribute("user", new User(email, password));
+            resp.sendRedirect("profil");
+        }
+        else {
+            System.out.println("bad login");
+            resp.sendRedirect("login");
+        }
     }
     
     

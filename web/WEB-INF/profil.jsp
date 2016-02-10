@@ -1,6 +1,6 @@
 <%-- 
-    Document   : login
-    Created on : 10 févr. 2016, 15:42:42
+    Document   : profil
+    Created on : 10 févr. 2016, 23:11:44
     Author     : lucas
 --%>
 
@@ -12,7 +12,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
+    <title>Profil</title>
 
     <!-- Bootstrap -->
     <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
@@ -76,34 +76,18 @@
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Project name</a>
+          <a class="navbar-brand" href="#">Profil</a>
         </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
+
       </div>
     </nav>
 
     <div class="container">
-        <br/><br/><br/>
-        <form class="form-signin" method="post">
-        <h2 class="form-signin-heading">Please sign in</h2>
-        <label for="inputEmail" class="sr-only">Email address</label>
-        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus name="email">
-        <label for="inputPassword" class="sr-only" >Password</label>
-        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required name="password">
-
-        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-      </form>
+        
         
     </div><!-- /.container -->
 
